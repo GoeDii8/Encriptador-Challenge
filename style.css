@@ -1,0 +1,186 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #1b232a;
+    background-image: url(imagenes/Group.png);
+   
+}
+header{
+    padding: 20px 0;
+    display: flex;
+}
+main{
+    display: flex;
+    align-content: space-around;
+    
+}
+.block1{
+    width: 80%;
+    margin: 0 35px;
+}
+.texto{
+    width: 65%;
+    height: 350px;
+    outline: none;
+    background-color: transparent;
+    border-radius: .5rem;
+    border: none;
+    resize: none;
+    font-size: 25px;
+    margin: 50px auto;
+    padding: 2rem 2rem 2rem;
+    color: #f1f4f6;
+    display: inline-block;
+}
+.texto::placeholder{
+    color: #f1f4f6;
+    font-size: 28px;
+}
+.texto:focus, .texto:active{
+    border: none;
+    outline: none;
+}
+.group95{
+    transform: translate(1350px, -288px);
+}
+.group96{
+    transform: translate(500px, -260px);
+}
+.group98{
+    transform: translate(0, -100px);
+}
+
+.aviso p{
+    font-size: 13px;
+    color:#f1f4f6;
+    display: inline-block;
+}
+.icono{
+    width: 16px;
+    display: inline-block;
+    margin: 0 7px;
+    transform: translate(0,3px);
+}
+.botones{
+    margin-left: 500px; 
+   
+}
+.botones button{
+    border: 0;
+    background-color: #5ed5a8;
+    border-radius: 8px;
+    color: #f1f4f6;
+    display: inline-block;
+    padding: 10px 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: .3s;
+    text-align: center;
+    font-size: 18px;
+}
+button span{
+    padding: 5px 80px;
+    border-radius: 6px;
+    transition: .3s;
+}
+ button:hover span{
+    background:  #1b232a;
+ }
+ button:active{
+    transform: scale(0.9);
+ }
+ .ocultar{
+    display: none;
+ }
+
+
+
+/* bloque 2*/
+
+.block2{
+    background-color: #232c33;
+    border-radius: .5rem;
+    border: none;
+    width: 35%;
+    height: 100%;
+    padding: 25px 0 0 25px;
+    margin-right: 18px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(imagenes/Group.png);
+}    
+.columna-texto{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;   
+}
+.instruccion p, span{
+    margin-top: 70px;
+}
+.instruccion p{
+    font-weight: bold;
+    color: #5ed5a8;
+}
+.instruccion span{
+    color: #f1f4f6;
+}
+.resultado{
+    color:#f1f4f6;
+    font-size: 25px;
+}
+
+.boton3{
+    display: block;
+    margin: 10px 0 5px 155px;
+    border: 0;
+    background-color: #5ed5a8;
+    border-radius: 8px;
+    color: #f1f4f6;
+    padding: 10px 5px;
+    cursor: pointer;
+    transition: .3s;
+    text-align: center;
+    font-size: 18px;
+    position: sticky;
+}
+.boton3 span{
+    background-color: #1b232a;
+    padding: 5px 80px;
+    border-radius: 6px;
+    transition: .3s;
+    text-align: center;
+}
+.boton3:hover span{
+    background: none;
+   
+ }
+.group97{
+    transform: translate(238px, -100px);
+    margin: 0;
+    
+}
+
+
+/* footer */
+.contacto{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 5px;
+    right: 565px; 
+}
+.github{
+    margin-left: 8px;
+}
+.github:hover{
+    transform: scale(1.1);
+}
+.linkedin{
+    margin-left: 8px;
+}
+.linkedin:hover{
+    transform: scale(1.1);
+}
